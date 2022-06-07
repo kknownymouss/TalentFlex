@@ -1,0 +1,32 @@
+.upload-guidelines {
+    background-color: var(--dark-dark-grey);
+    margin: 15px;
+    width: 350px;
+    border-radius: 10px;
+
+}
+
+.upload-guidelines-header {
+    background-color: var(--dark-yellow);
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.guidelines {
+    margin: 20px
+}
+
+.guideline-text {
+    margin-bottom: 20px;
+}
+
+.talentflex-policies {
+    color: var(--dark-yellow);
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    
+}
+
+.talentflex-policies:hover {
+    color: var(--light-yellow)
+}

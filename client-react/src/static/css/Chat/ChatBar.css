@@ -1,0 +1,102 @@
+.chat-bar-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--dark-dark-grey);
+    border-radius: 8px;
+    overflow-y: auto;
+    width: 300px;
+    min-width: 300px;
+    height: 550px;
+}
+
+/* width */
+.chat-bar-wrap::-webkit-scrollbar {
+    width: 6px;
+}
+  
+  /* Track */
+.chat-bar-wrap::-webkit-scrollbar-track {
+    background: var(--dark-grey);
+    border-radius: 4px;
+}
+  
+  /* Handle */
+.chat-bar-wrap::-webkit-scrollbar-thumb {
+    background: var(--white);
+    border-radius: 5px;
+}
+
+.chat-bar-header {
+    background-color: var(--light-green);
+    padding: 10px;
+    text-align: center;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.chat-bar-header:hover {
+    filter: brightness(0.7);
+}
+
+.chat-list-user-creds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: inherit;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+.chat-list-user-creds:hover {
+    filter: brightness(0.7);
+}
+
+@media (min-width:315px) {
+    .chat-bar-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: var(--dark-dark-grey);
+        border-radius: 8px;
+        overflow-y: auto;
+        width: 300px;
+        min-width: 300px;
+        height: 550px;
+    }
+
+}
+
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .chat-bar-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: var(--dark-dark-grey);
+        border-radius: 8px;
+        overflow-y: auto;
+        width: 300px;
+        min-width: 300px;
+        height: 550px;
+    }
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .chat-bar-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: var(--dark-dark-grey);
+        border-radius: 8px;
+        overflow-y: auto;
+        width: 300px;
+        min-width: 300px;
+        height: 550px;
+    }
+
+}

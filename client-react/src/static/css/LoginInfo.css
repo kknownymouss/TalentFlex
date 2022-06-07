@@ -1,0 +1,41 @@
+.login-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
+.login-img {
+    padding-left: 30px;
+}
+
+.li-login {
+    margin-top: 15px;
+}
+
+@media (min-width:315px)  {
+    /* phones */ 
+    .login-info {
+        display: none;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+
+}
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .login-info {
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .login-info {
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+}

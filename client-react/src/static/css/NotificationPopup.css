@@ -1,0 +1,116 @@
+.notification-popup-wrap {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--dark-grey);
+    border-radius: 8px;
+    overflow-y: auto;
+    width: 450px;
+}
+
+.notification-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px; 
+    user-select: none;
+    transition: background 0.2s;
+}
+
+.notification-row:hover {
+    background-color: var(--light-black);
+}
+
+.notification-post-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.notification-empty-card {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-grey);
+}
+
+.view-all-notifications {
+    background-color: var(--dark-yellow);
+    text-align: center;
+    padding: 8px;
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+}
+.view-all-notifications:hover {
+    filter: brightness(0.8);
+}
+
+.notification-div-header {
+    padding: 20px 20px 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    border-bottom: 3px solid var(--dark-yellow);
+    
+}
+
+.notification-number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -4px;
+    margin-left: 5px;
+    padding-right: 1px;
+}
+@media (min-width:315px) {
+    .notification-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 0px; 
+        user-select: none;
+        transition: background 0.2s;
+    }
+
+}
+
+
+@media (min-width:768px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .notification-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px; 
+        user-select: none;
+        transition: background 0.2s;
+    }
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+     .notification-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 20px; 
+        user-select: none;
+        transition: background 0.2s;
+    }
+     
+}

@@ -1,0 +1,43 @@
+.settings-display {
+    background-color: var(--dark-dark-grey);
+    margin: 0px 15px 15px 15px;
+    width: 850px;
+    border-radius: 10px;
+    
+}
+
+
+@media (min-width:315px) {
+    .settings-display {
+        background-color: var(--dark-dark-grey);
+        margin: 0px 15px 15px 15px;
+        width: 350px;
+        border-radius: 10px;
+        
+    }
+  
+  }
+  
+  
+  @media (min-width:768px)  {
+       /* tablet, landscape iPad, lo-res laptops ands desktops */
+       .settings-display {
+        background-color: var(--dark-dark-grey);
+        margin: 0px 15px 15px 15px;
+        width: 850px;
+        border-radius: 10px;
+        
+    }
+  }
+  
+  @media (min-width:1025px) {
+       /* big landscape tablets, laptops, and desktops */
+       .settings-display {
+        background-color: var(--dark-dark-grey);
+        margin: 0px 15px 15px 15px;
+        width: 850px;
+        border-radius: 10px;
+        
+    }
+       
+  }

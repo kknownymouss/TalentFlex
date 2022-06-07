@@ -1,0 +1,81 @@
+.login-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.fade-in {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+  }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@media (min-width:315px)  {
+    /* phones */ 
+    .login-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 100%;
+        height: 110vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+
+}
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .login-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .login-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    
+}

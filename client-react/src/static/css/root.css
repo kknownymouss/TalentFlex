@@ -1,0 +1,200 @@
+:root {
+    --blue: #1e90ff;
+    --light-grey: #beb8b8;
+    --light-green: #3c803c;
+    --black: #000000;
+    --white: #ffffff;
+    --dark-green: rgb(8, 87, 8);
+    --dark-grey: rgb(58, 52, 52);
+    --dark-yellow: #d69d00;
+    --dark-blue: #8280ec;
+    --dark-white: rgb(194, 192, 189);
+    --light-black:  rgb(34, 30, 30);
+    --light-black2:  rgb(24, 20, 20);
+    --light-dark-green:  #4caa4c;
+    --dark-dark-grey: #302d2d;
+    --dark-red:  rgb(163, 31, 31);
+    --light-yellow: #ecb92c;
+    --light-red: rgb(122, 22, 22);
+    --olive: #707045;
+    --cyan: #00FA9A;
+    --violet: #9932CC;
+    --coral: #FF7F50;
+    --cyan-blue: #1591A4;
+    --male-color: #13E621;
+    --female-color: #DE55A3;
+    --age: #41808D;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.light-dark-green {
+    color: var(--light-dark-green)
+}
+
+.dark-red {
+    color: var(--dark-red)
+}
+
+.light-green {
+    color: var(--light-green)
+}
+
+.dark-green {
+    color: var(--dark-green)
+}
+
+.white {
+    color: var(--white);
+}
+
+.black {
+    color: var(--black);
+}
+
+.dark-gray {
+    color: var(--dark-grey)
+}
+
+.light-gray {
+    color: var(--light-grey)
+}
+
+.large {
+    font-size: 40px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.medium-big {
+    font-size: 25px;
+}
+
+.medium {
+    font-size: 20px;
+}
+
+.small-medium {
+    font-size: 18px;
+}
+
+.small {
+    font-size: 16px;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.light-heavy {
+    font-weight: 500;
+}
+
+.heavy {
+    font-weight:700;
+}
+
+@media (min-width:315px)  {
+    /* phones */
+    .material-icons.md-18 { font-size: 9px; }
+    .material-icons.md-24 { font-size: 15px; }
+    .material-icons.md-36 { font-size: 27px; }
+    .material-icons.md-48 { font-size: 39px; }
+    .large {
+        font-size: 21px;
+    }
+    
+    .big {
+        font-size: 20px;
+    }
+    
+    .medium-big {
+        font-size: 15px;
+    }
+    
+    .medium {
+        font-size: 12px;
+    }
+    
+    .small-medium {
+        font-size: 11px;
+    }
+    
+    .small {
+        font-size: 11px;
+    }
+    
+
+}
+
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    .material-icons.md-18 { font-size: 13px; }
+    .material-icons.md-24 { font-size: 19px; }
+    .material-icons.md-36 { font-size: 31px; }
+    .material-icons.md-48 { font-size: 43px; }
+    .large {
+        font-size: 35px;
+    }
+    
+    .big {
+        font-size: 25px;
+    }
+    
+    .medium-big {
+        font-size: 20px;
+    }
+    
+    .medium {
+        font-size: 15px;
+    }
+    
+    .small-medium {
+        font-size: 14px;
+    }
+    
+    .small {
+        font-size: 13px;
+    }
+
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .material-icons.md-18 { font-size: 18px; }
+    .material-icons.md-24 { font-size: 24px; }
+    .material-icons.md-36 { font-size: 36px; }
+    .material-icons.md-48 { font-size: 48px; }
+    
+    .large {
+        font-size: 40px;
+    }
+    
+    .big {
+        font-size: 30px;
+    }
+    
+    .medium-big {
+        font-size: 25px;
+    }
+    
+    .medium {
+        font-size: 20px;
+    }
+    
+    .small-medium {
+        font-size: 18px;
+    }
+    
+    .small {
+        font-size: 16px;
+    }
+
+}

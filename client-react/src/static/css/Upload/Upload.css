@@ -1,0 +1,9 @@
+.feed-wrap-light-black {
+    background-color: var(--light-black);
+    transition: background 0.5s;
+}
+
+.feed-wrap-dark-white {
+    background-color: var(--dark-white);
+    transition: background 0.5s;
+}

@@ -1,0 +1,52 @@
+.profile-more-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 17px 20px 17px 40px;
+    transition: background 0.2s;
+}
+
+.profile-more-option:hover {
+    background-color: var(--light-black);
+}
+
+
+@media (min-width:315px) {
+    .profile-more-option {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 13px 17px 8px 40px;
+        transition: background 0.2s;
+    }
+
+}
+
+
+@media (min-width:768px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .profile-more-option {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 17px 20px 17px 40px;
+        transition: background 0.2s;
+    }
+
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+     .profile-more-option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 17px 20px 17px 40px;
+    transition: background 0.2s;
+}
+     
+}

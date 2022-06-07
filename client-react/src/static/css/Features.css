@@ -1,0 +1,12 @@
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-size: cover;
+    background-position: center center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: stretch;
+}

@@ -1,0 +1,16 @@
+.extras {
+    background-color: var(--dark-dark-grey);
+    margin: 15px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.extras-header {
+    background-color: var(--light-green);
+    padding: 10px 10px 10px 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.ordered-discover {
+    margin: 20px;
+}

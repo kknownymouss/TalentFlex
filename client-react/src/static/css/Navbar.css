@@ -1,0 +1,207 @@
+:root {
+    --blue: #1e90ff;
+    --light-grey: #beb8b8;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+
+.main-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.start-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.mid-navbar {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.end-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.no-padding-margin {
+    padding: 0;
+    margin: 0;
+}
+
+.img-margin {
+    margin: 3px;
+}
+
+.no-decoration {
+    text-decoration: none;
+    color: var(--white);
+    transition: color 0.2s;
+}
+
+
+.no-decoration:hover {
+    color: var(--light-grey)
+}
+
+
+.no-decoration-signup {
+    text-decoration: none;
+    color: var(--black)
+}
+
+.no-decoration-signup:hover {
+    color: var(--black)
+}
+
+.signup-but {
+    border-radius: 15px;
+    border: none;
+    margin-left: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.signup-but:hover {
+    background-color: var(--light-grey);  
+}
+
+.login-but {
+    margin-right: 6px;
+    padding-bottom: 2px;
+}
+
+.active-link {
+    border-bottom: 2px solid white;
+    border-radius: 4px;
+    color: var(--dark-white)
+}
+
+@media (min-width:315px)  {
+    /* phones */
+    .mid-navbar {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .navbar-options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 3px;
+    }   
+    .login-but {
+        margin-right: 6px;
+        padding-bottom: 2px;
+        display: none;
+    } 
+    .signup-but {
+        border-radius: 15px;
+        margin-top: 5px;
+        border: none;
+        margin-right: 6px;
+        margin-left: 0px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+
+}
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */   
+    .mid-navbar {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    
+    .navbar-options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+
+    .login-but {
+        margin-right: 6px;
+        padding-bottom: 2px;
+        display: inline-block;
+    }
+    .signup-but {
+        border-radius: 15px;
+        border: none;
+        margin-top: 0px;
+        margin-left: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 6px;
+}
+
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .mid-navbar {
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    .navbar-options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    .login-but {
+        margin-right: 6px;
+        padding-bottom: 2px;
+        display: inline-block;
+    }
+    .signup-but {
+        border-radius: 15px;
+        border: none;
+        margin-top: 0px;
+        margin-left: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 6px;
+}
+
+}

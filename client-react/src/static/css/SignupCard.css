@@ -1,0 +1,12 @@
+.signup-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.95);
+    padding: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 5px;
+}

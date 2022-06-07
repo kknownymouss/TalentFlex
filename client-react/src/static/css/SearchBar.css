@@ -1,0 +1,124 @@
+.feed-mid-navbar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.search-icon {
+    background-color: var(--white);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px 0px 0px 5px;
+    padding: 7px;
+
+}
+
+.feed-search {
+    background-color: var(--white);
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    padding-left: 2px;
+    
+}
+
+.feed-search:focus {
+    box-shadow: none;
+}
+
+.search-drop {
+    position: absolute;
+    width: 600px;
+    background-color: var(--dark-grey);
+    border-radius: 8px;
+    top: 65px;
+    right: -180px;
+   
+}
+
+
+
+.search-result-profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px 30px;
+    transition: all 0.3s;
+}
+
+.search-result-profile:hover {
+    background-color: var(--light-black);
+}
+
+.search-result-profile-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (min-width:315px) {
+    .search-drop {
+        position: absolute;
+        width: 250px;
+        background-color: var(--dark-grey);
+        border-radius: 8px;
+        top: 65px;
+        right: -60px;
+       
+    }
+    .search-result-profile-image {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+}
+
+
+@media (min-width:768px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .search-drop {
+        position: absolute;
+        width: 600px;
+        background-color: var(--dark-grey);
+        border-radius: 8px;
+        top: 65px;
+        right: -180px;
+       
+    }
+    .search-result-profile-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+     .search-drop {
+        position: absolute;
+        width: 600px;
+        background-color: var(--dark-grey);
+        border-radius: 8px;
+        top: 65px;
+        right: -180px;
+       
+    }
+    .search-result-profile-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+     
+}

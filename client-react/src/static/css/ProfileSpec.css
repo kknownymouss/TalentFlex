@@ -1,0 +1,162 @@
+.profile-more-status-Online {
+    color: var(--light-green);
+    border: 3px solid var(--light-green);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Offline {
+    color: var(--dark-red);
+    border: 3px solid var(--dark-red);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+
+.profile-more-status-Gaming {
+    color: var(--dark-yellow);
+    border: 3px solid var(--dark-yellow);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Editing {
+    color: var(--dark-blue);
+    border: 3px solid var(--dark-blue);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Drawing {
+    color: var(--white);
+    border: 3px solid var(--white);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Random {
+    color: var(--white);
+    border: 3px solid var(--white);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Singing {
+    color: var(--cyan-blue);
+    border: 3px solid var(--cyan-blue);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Photography {
+    color: var(--cyan);
+    border: 3px solid var(--cyan);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Design {
+    color: var(--violet);
+    border: 3px solid var(--violet);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Technology {
+    color: var(--coral);
+    border: 3px solid var(--coral);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Music-Production {
+    color: var(--olive);
+    border: 3px solid var(--olive);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Soccer {
+    color: var(--male-color);
+    border: 3px solid var(--male-color);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Dancing {
+    color: var(--female-color);
+    border: 3px solid var(--female-color);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Male {
+    color: var(--male-color);
+    border: 3px solid var(--male-color);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+.profile-more-status-Female {
+    color: var(--female-color);
+    border: 3px solid var(--female-color);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}
+
+
+
+.profile-more-status-Age {
+    color: var(--age);
+    border: 3px solid var(--age);
+    border-radius: 12px;
+    padding: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    user-select: none;
+}

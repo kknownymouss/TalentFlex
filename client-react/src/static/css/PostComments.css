@@ -1,0 +1,231 @@
+.post-comments-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2em;
+}
+
+/*
+.post {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: var(--dark-dark-grey);
+    margin: 15px;
+    border-radius: 7px;
+    width: 800px;
+}
+*/
+
+.post-user-creds {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 10px 5px 0px;
+    border-bottom: 3px solid var(--light-green);
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+
+/*
+.feed-image {
+    max-width: 700px;
+    max-height: 500px;
+    border-radius: 5px;
+}
+*/
+
+.feed-zero-margin {
+    margin: 0px;
+}
+
+
+.no-uploads {
+    border-bottom: 3px solid var(--light-green);
+    padding-bottom: 3px;
+}
+
+.post-comments-div {
+    margin-top: 35px;
+    border-top: 3px solid var(--light-green)
+
+}
+
+.comment {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 25px;
+    position: relative;
+}
+
+
+.comment-creds {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15px;
+    background-color: var(--light-black);
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%
+}
+
+.profile-image-comment {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 35px 25px 0px 25px;
+}
+
+#exampleFormControlTextarea1 {
+    margin-left: 15px;
+    background-color: var(--light-black);
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+    border: 2px solid transparent;
+    transition: border 0.3s;
+    color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    resize: none;
+}
+
+
+#exampleFormControlTextarea1:focus {
+    box-shadow: none;
+    border: 2px solid white;
+}
+
+.post-button-div {
+    margin: 25px 25px 0px 25px;
+    text-align: right;
+}
+
+.comment-post-button {
+    background-color: var(--light-green);
+    border: none;
+}
+
+@media (min-width:315px) {
+    .comment {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 20px 5px;
+        position: relative;
+    }
+    .post-button-div {
+        margin: 15px 5px 25px 5px;
+        text-align: right;
+    }
+    .comment-form {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 35px 5px 0px 5px;
+    }
+    .profile-image-comment {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    .post-comments-wrap {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 2em;
+    }
+    
+
+}
+
+
+@media (min-width:768px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .comment {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 25px;
+        position: relative;
+    }
+    .post-button-div {
+        margin: 25px 25px 0px 25px;
+        text-align: right;
+    }
+    .comment-form {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 35px 25px 0px 25px;
+    }
+    .profile-image-comment {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    .post-comments-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2em;
+    }
+    
+
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+     .comment {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin: 25px;
+        position: relative;
+    }
+    .post-button-div {
+        margin: 25px 25px 0px 25px;
+        text-align: right;
+    }
+    .comment-form {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 35px 25px 0px 25px;
+    }
+    .profile-image-comment {
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        object-fit: cover;
+    }
+    .post-comments-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 2em;
+    }
+    
+     
+}

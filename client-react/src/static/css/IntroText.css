@@ -1,0 +1,112 @@
+.intro-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 8vh;
+}
+
+.intro-text {
+    background-color: var(--black);
+    opacity: 0.8;
+    padding: 3em;
+    margin-right: 5%;
+    height: 55vh;
+    width: 50%;
+    overflow-y: auto;
+}
+
+/* width */
+.intro-text::-webkit-scrollbar {
+    width: 4px;
+}
+  
+  /* Track */
+.intro-text::-webkit-scrollbar-track {
+    background: var(--dark-grey);
+    border-radius: 4px;
+}
+  
+  /* Handle */
+.intro-text::-webkit-scrollbar-thumb {
+    background: var(--white);
+    border-radius: 4px;
+}
+
+
+.intro-text-style {
+    max-width: 100%;
+}
+
+.intro-title-style {
+    border-bottom: 3px solid var(--dark-green);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:315px)  {
+    /* phones */    
+    .intro-text-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 8vh;
+        width: 100%;
+    }
+
+    .intro-text {
+        background-color: var(--black);
+        opacity: 0.8;
+        padding: 2em;
+        height: 55vh;
+        width: 300px;
+        overflow-y: auto;
+        margin-right: 0px;
+    }
+
+}
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .intro-text-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 8vh;
+    }
+    
+    .intro-text {
+        background-color: var(--black);
+        opacity: 0.8;
+        padding: 3em;
+        margin-right: 5%;
+        height: 55vh;
+        width: 50%;
+        overflow-y: auto;
+    }  
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .intro-text-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 8vh;
+    }
+    
+    .intro-text {
+        background-color: var(--black);
+        opacity: 0.8;
+        padding: 3em;
+        margin-right: 5%;
+        height: 55vh;
+        width: 50%;
+        overflow-y: auto;
+    }
+    
+}

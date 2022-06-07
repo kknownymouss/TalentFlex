@@ -1,0 +1,124 @@
+.categories-dropdown {
+    position: absolute;
+    top: 55px;
+    left: 9px;
+    background-color: var(--dark-grey);
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    max-height: 350px;
+    overflow-y: auto;
+
+}
+
+/* width */
+.categories-dropdown::-webkit-scrollbar {
+    width: 4px;
+}
+  
+  /* Track */
+.categories-dropdown::-webkit-scrollbar-track {
+    background: var(--dark-grey);
+    border-radius: 4px;
+}
+  
+  /* Handle */
+.categories-dropdown::-webkit-scrollbar-thumb {
+    background: var(--white);
+    border-radius: 4px;
+}
+
+.categories-item {
+    text-decoration: none;
+}
+
+.categories-item:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.categories-item-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+    transition: background 0.2s;
+}
+
+.categories-item-wrap:hover {
+    background-color: var(--light-black);
+}
+
+@media (min-width:315px) {
+    .categories-item-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        transition: background 0.2s;
+    }
+    .categories-dropdown {
+        position: absolute;
+        top: 55px;
+        left: 0px;
+        background-color: var(--dark-grey);
+        padding: 0px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        max-height: 350px;
+        overflow-y: auto;
+    
+    }
+}
+
+
+@media (min-width:768px)  {
+     /* tablet, landscape iPad, lo-res laptops ands desktops */
+     .categories-item-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 30px 10px 30px;
+        transition: background 0.2s;
+    }
+    .categories-dropdown {
+        position: absolute;
+        top: 55px;
+        left: 9px;
+        background-color: var(--dark-grey);
+        padding: 0px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        max-height: 350px;
+        overflow-y: auto;
+    
+    }
+
+}
+
+@media (min-width:1025px) {
+     /* big landscape tablets, laptops, and desktops */
+     .categories-item-wrap {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 10px 30px 10px 30px;
+        transition: background 0.2s;
+    }
+    .categories-dropdown {
+        position: absolute;
+        top: 55px;
+        left: 9px;
+        background-color: var(--dark-grey);
+        padding: 0px 0px 10px 0px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 5px;
+        max-height: 350px;
+        overflow-y: auto;
+    
+    }
+}

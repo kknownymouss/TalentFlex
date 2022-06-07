@@ -1,0 +1,69 @@
+.quote {
+    text-align: center;
+    max-width: 700px;
+    font-family: 'Trebuchet MS';
+    color: #273c48;
+    font-size: 40px;
+}
+
+.quote-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 100px;
+}
+
+@media (min-width:315px)  {
+    /* phones */ 
+    .quote {
+        text-align: center;
+        max-width: 700px;
+        font-family: 'Trebuchet MS';
+        color: #273c48;
+        font-size: 21px;
+    }   
+    .quote-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 50px;
+    }
+
+
+}
+
+@media (min-width:768px)  {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+    .quote {
+        text-align: center;
+        max-width: 700px;
+        font-family: 'Trebuchet MS';
+        color: #273c48;
+        font-size: 35px;
+    }
+    .quote-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 100px;
+    }
+
+
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
+    .quote {
+        text-align: center;
+        max-width: 700px;
+        font-family: 'Trebuchet MS';
+        color: #273c48;
+        font-size: 40px;
+    }
+    .quote-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin: 100px;
+    }
+}
